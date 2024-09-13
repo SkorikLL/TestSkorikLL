@@ -1,8 +1,7 @@
-# React + Vite
+# Тестовое задание
+1.	Сделать "таблицу", где каждая ячейка может редактироваться, включая серую шапку;
+2.	Изначально показывается таблица с данными как в макете;
+3.	Через 5 секунд после того, как пользователь изменил данные в любой ячейке, появляется прогресс бар и счетчик секунд до отправки (10 секунд);
+4.	Если пользователь продолжает вводить данные в любой ячейке, счетчик и прогресс бар исчезают. Потом возвращаемся к п. 3.
+5.	Если счетчик и прогресс-бар дошли до 0, вывести данные отредактированных ячеек в консоль вместе с их id
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
