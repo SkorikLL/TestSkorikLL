@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-color: #fff;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.for-box {
+    padding-top: 64px;
+
+}
+
+.for-box .table {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+
+.for-box .cell_table {
+
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    box-sizing: border-box
+}
+
+.cell_table input,
+.cell_table textarea {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding-left: 10px;
+}
+
+.cell_table_date input,
+.cell_table_numberChange input,
+.cell_table_master input,
+.cell_table_controlSystems input {
+    background-color: #E3E3E3;
+}
+
+.cell_table_date {
+    height: 100px;
+    grid-column: span 2;
+}
+
+.cell_table_numberChange {
+    height: 100px;
+    grid-column: span 1;
+}
+
+.cell_table_numberChange input,
+.cell_table_master input {
+    border-left: 1px solid #E3E3E3;
+}
+
+
+.cell_table_numberChange span,
+.cell_table_master span {
+    background-color: #E3E3E3;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    height: 100%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-top: 1px solid #000;
+}
+
+.cell_table_master {
+    height: 100px;
+    grid-column: span 7;
+}
+
+.cell_table_controlSystems {
+    height: 100px;
+    grid-column: span 2;
+}
+
+.cell_table_type {
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.cell_table_quantity {
+    height: 100px;
+    grid-column: span 7;
+
+}
+
+.cell_table_quantity input {
+    padding-left: 0px;
+    text-align: center;
+}
+
+.cell_table_comment {
+    height: 300px;
+    grid-column: span 3;
+    grid-row-end: span 5;
+}
+
+
+.cell_table_model {
+    height: 200px;
+    grid-column: span 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+}
+
+.cell_table_status {
+    height: 100px;
+    grid-column: span 4;
+}
+
+.cell_table_quantityWorkers {
+    height: 100px;
+    grid-column: span 1;
+}
+
+.cell_table_standard {
+    height: 100px;
+    grid-column: span 2;
+}
+
+.cell_table_percent {
+    height: 100px;
+    grid-column: span 2;
+    grid-column-start: 3;
+}
+
+.cell_table_percent input {
+    border-right: 1px solid white;
+}
+
+.cell_table_percent span {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    height: 100%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-bottom: 1px solid #000;
+}
+
+.cell_commentWork {
+    height: 100px;
+    grid-column: span 6;
+}
+
+.cell_commentWork input {
+    color: #E30000;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: black;
+}
